@@ -1,0 +1,22 @@
+[project]
+name = "bugs-bot"
+version = "0.1.0"
+description = "discord bot that tracking your bugs community reports"
+authors = [
+    {name = "Andres Camilo Plaza Jimenez",email = "camiloplaza3@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "discord-py (>=2.5.2,<3.0.0)",
+    "asyncio (>=3.4.3,<4.0.0)",
+    "redis (>=6.2.0,<7.0.0)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "fastapi (>=0.115.14,<0.116.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
